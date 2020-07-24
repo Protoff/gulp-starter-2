@@ -10,9 +10,9 @@
   * конвертация изображений webp
   * В работе использую библиотеку миксинов smart-grid от Дмитрия Лаврика - очень помогает https://www.npmjs.com/package/smart-grid
   * Сборщик создаёт три варианта css-файлов:
-        1. dist/css/css-modules - несжатые css-модули, я их использую для WordPress, обжимаю там
-        2. dist/css/min-css-modules - сжатые css-модули
-        3. dist/css/styles.css && styles.min.css - все несжатые и сжатые стили подключенные в src/styles/styles.sass
+        1. dist/css/css-modules - несжатые css-модули, я их использую для WordPress, обжимаю там  
+        2. dist/css/min-css-modules - сжатые css-модули  
+        3. dist/css/styles.css && styles.min.css - все несжатые и сжатые стили подключенные в src/styles/styles.sass  
 
 
 ## Начало работы
