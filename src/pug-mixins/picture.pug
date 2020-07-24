@@ -1,0 +1,20 @@
+mixin picture(name, alt, ext='png', xs=true)
+
+  -var media_base = ["", "(min-width: 992px)"];
+  -var media_md = ["-md", "(min-width: 500px)"];
+  -var media_xs = ["-xs", "(max-width: 500px)"];
+
+  case xs
+    when false
+      -media = [media_base, media_md];
+    default
+     -media = [media_base, media_md, media_xs];
+
+  -var pathName =  './img/' + name;
+
+  picture
+    each el in media
+      -var srcset = pathName + el[0] + '.';
+      source(srcset=srcset + "webp", type="image/webp", media=el[1] )
+      source(srcset=srcset + ext, media=el[1] )
+    img(src='', alt=alt)
