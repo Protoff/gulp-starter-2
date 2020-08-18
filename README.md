@@ -18,10 +18,10 @@
 ## Начало работы
 
 1.  Для старта проекта клонировать репозиторий:
-    `git clone https://github.com/Protoff/gulp-starter.git`
+    `git clone https://github.com/Protoff/gulp-starter-2.git`
 
 2.  Перейти в директорию:
-    `cd gulp-starter`
+    `cd gulp-starter-2`
 
 2.  Установить необходимые пакеты:
     `yarn install`
